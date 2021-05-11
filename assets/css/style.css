@@ -1,0 +1,61 @@
+.hero-section {
+    background-image: url("https://tinkercademy.com/wp-content/uploads/2017/04/Generic-Banner-07-Web-App-Developer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.hero-section hr {
+    width: 30%;
+    background-color: white;
+}
+
+.titulo-secundario{
+    font-family: 'Oswald', sans-serif;
+}
+
+#trabajos {
+    background-color: #3a226c;
+}
+
+.titulo-principal {
+    margin-top: 5rem;
+}
+
+.navbar {
+    background-color: #3a226c;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.avatar {
+    width: 200px;
+    margin-top: 5rem;
+}
+
+footer {
+    background-color: #3a226c;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+footer i {
+    margin-left: 10px;
+}
+
+#trabajos button{
+    background-color: #3a226c;
+    color: white;
+}

@@ -1,12 +1,266 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alvaro Faba">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c4dc3ced7b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Alvaro Faba | Portafolio</title>
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg text-white fixed-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">AF</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre Mi <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trabajos">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero-section text-center my-5">
+        <div>
+            <img src="assets/img/alvarofaba.jpg" class="avatar rounded-circle" alt="">
+        </div>
+        <div class="titulo-principal">
+            <h1>YO SOY</h1>
+            <hr>
+            <h1>ALVARO FABA</h1>
+        </div>
+    </header>
+
+    <section class="descripcion container" id="sobre-mi">
+        <div class="col-12">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate hic nam, iure iste vel,
+                necessitatibus, tempore vero adipisci nisi doloremque molestias? Minima quidem ex, voluptatum saepe
+                magni nulla soluta perspiciatis.</p>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-6">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur omnis assumenda totam labore.
+                    Quasi eveniet delectus adipisci, sequi dolorum praesentium enim quidem sit perspiciatis ipsa fugit
+                    eos magnam dolores iure?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti alias enim blanditiis. Odio rerum
+                    minima minus illum modi praesentium beatae sed placeat ea fugiat. Officiis inventore reiciendis
+                    dolorum cumque sapiente!</p>
+            </div>
+            <div class="col-6">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias beatae deserunt veniam, voluptatibus
+                    aliquam dignissimos at eveniet vitae nostrum quas quidem similique iure maxime officia dolores ab
+                    consequuntur fugiat necessitatibus!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita consequatur fugiat maiores. Saepe
+                    sint illum voluptatem veniam ab ipsum! Nihil quis architecto pariatur dicta commodi voluptates rerum
+                    recusandae provident non!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="experiencia my-5" id="experiencia">
+        <div class="text-center">
+            <h1 class="titulo-seccion display-4 font-weight-bold">MI EXPERIENCIA</h1>
+        </div>
+        <div class="row container-fluid text-center py-5 px-5">
+            <div class="col-6">
+                <i class="fab fa-wordpress fa-8x" style="color: #3a226c;"></i>
+                <h2 class="titulo-secundario">Wordpress</h2>
+                <p class="font-weight-light">2016 - 2021</p>
+            </div>
+            <div class="col-6">
+                <i class="fab fa-html5 fa-8x" style="color: #3a226c;"></i>
+                <h3 class="titulo-secundario">Desarrollador Front End</h3>
+                <p class="font-weight-light">2021 - 2030</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria de Trabajos -->
+    <section id="trabajos">
+        <div class="container my-5 pt-2">
+            <h2 class="text-center text-white display-4 font-weight-bold mt-5 col-md md-auto">MIS ÚLTIMOS TRABAJOS</h2>
+            <div class="row justify-content-center align-items-center">
+                <div class="card-deck my-5 myx-5">
+                    <!-- Carta 1 -->
+                    <div class="col-md-6 col-lg-4 my-5">
+                        <div class="card" style="width: 22rem;">
+                            <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold">Meet&Coffe</h5>
+                                <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                                    scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis
+                                    accumsan donec ridiculus.</p>
+                            </div>
+                            <div class="card-body">
+                                <button type="button" class="btn" data-toggle="modal" data-target="#meetandcoffee">
+                                    Saber Mas
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carta 1 -->
+                    <div class="col-md-6 col-lg-4 my-5">
+                        <div class="card" style="width: 22rem;">
+                            <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold">Iguana Page</h5>
+                                <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                                    scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis
+                                    accumsan donec ridiculus.</p>
+                            </div>
+                            <div class="card-body">
+                                <button type="button" class="btn btn-secondary" data-container="body"
+                                    data-toggle="popover" data-placement="right"
+                                    data-content="Proyecto realizado con HTML y CSS">
+                                    Saber Mas
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carta 1 -->
+                    <div class="col-md-6 col-lg-4 my-5">
+                        <div class="card" style="width: 22rem;">
+                            <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold">Suricata</h5>
+                                <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                                    scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis
+                                    accumsan donec ridiculus.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Ver Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 my-5">
+                        <div class="card" style="width: 22rem;">
+                            <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold">Cuppon</h5>
+                                <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                                    scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis
+                                    accumsan donec ridiculus.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Ver Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carta 1 -->
+                    <div class="col-md-6 col-lg-4 my-5">
+                        <div class="card" style="width: 22rem;">
+                            <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold">Ricomida</h5>
+                                <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                                    scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis
+                                    accumsan donec ridiculus.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Ver Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carta 1 -->
+                    <div class="col-md-6 col-lg-4 my-5">
+                        <div class="card" style="width: 22rem;">
+                            <img src="assets/img/dmark.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold">D-Mark</h5>
+                                <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                                    scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis
+                                    accumsan donec ridiculus.</p>
+                            </div>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Ver Mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modales -->
+    <!-- Modal -->
+    <div class="modal fade" id="meetandcoffee" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Proyecto Meet And Coffee</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cum laudantium voluptates, et,
+                    assumenda nesciunt excepturi alias ipsum officiis numquam in! Aperiam vel sunt quas a doloremque
+                    maiores iste ducimus?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulario TypeForm -->
+    <section class="contacto" id="contacto">
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/FPaamTLq"
+            style="width: 100%; height: 500px;"></div>
+        <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
+        <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a
+                href="https://admin.typeform.com/signup?utm_campaign=FPaamTLq&utm_source=typeform.com-01EBHF1K80MEEVNJ7K8F679YQ9-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES"
+                style="color: #999" target="_blank">Typeform</a> </div>
+    </section>
+
+    <!-- Pie de Pagina -->
+    <footer>
+        <div class="row container-fluid text-center py-5 px-5">
+            <div class="col-6 text-center">
+
+                <h1>ALVAROFABA</h1>
+            </div>
+            <div class="col-6">
+                <i class="fab fa-linkedin fa-3x"></i>
+                <i class="fab fa-github-square fa-3x   "></i>
+                <i class="fab fa-twitter-square fa-3x"></i>
+                <i class="fab fa-facebook-square fa-3x"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
